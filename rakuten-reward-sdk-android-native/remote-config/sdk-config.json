@@ -1,0 +1,50 @@
+{
+  "android_api_domain": [
+    {
+      "conditions": [
+        { "type": "sdk_version", "symbol": ">=", "value": "8.1.0" }
+      ],
+      "value": "https://api-catalog-jpe-gateway.rakuten.co.jp/"
+    },
+    {
+      "conditions": [],
+      "value": "https://gateway-api.global.rakuten.com/"
+    }
+  ],
+  "ios_api_domain": [
+    {
+      "conditions": [
+        { "type": "sdk_version", "symbol": ">=", "value": "9.1.0" }
+      ],
+      "value": "https://api-catalog-jpe-gateway.rakuten.co.jp/"
+    },
+    {
+      "conditions": [],
+      "value": "https://gateway-api.global.rakuten.com/"
+    }
+  ],
+  "android_under_maintenance": [
+    {
+      "conditions": [
+        { "type": "app_key", "symbol": "||", "value": ["anAuY28ucmFrdXRlbi5yZXdhcmQuYW5kcm9pZC1yYWJRNjJfVVFJUmpqY2duNjVwR1NwcmJ3Q1FWRFNSYg==", "anAuY28ucmFrdXRlbi5yZXdhcmQuYW5kcm9pZC14bVFieXhKMGhQbldLSE8tX3o3UEVMQ0dRdC1nUVVHbg=="] }
+      ],
+      "value": true
+    },
+    {
+      "conditions": [],
+      "value": false
+    }
+  ],
+  "ios_under_maintenance": [
+    {
+      "conditions": [
+        { "type": "app_key", "symbol": "||", "value": ["anAuY28ucmFrdXRlbi5yZXdhcmQuYW5kcm9pZC1yYWJRNjJfVVFJUmpqY2duNjVwR1NwcmJ3Q1FWRFNSYg==", "anAuY28ucmFrdXRlbi5yZXdhcmQuYW5kcm9pZC14bVFieXhKMGhQbldLSE8tX3o3UEVMQ0dRdC1nUVVHbg=="] }
+      ],
+      "value": true
+    },
+    {
+      "conditions": [],
+      "value": false
+    }
+  ]
+}
