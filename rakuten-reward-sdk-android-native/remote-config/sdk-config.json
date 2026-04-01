@@ -46,5 +46,25 @@
       "conditions": [],
       "value": false
     }
+  ],
+  "android_applink_url": [
+    {
+      "conditions": [],
+      "value": [
+        { "type": "starts",   "value": "https://rd.rakuten.co.jp/app_ichiba" },
+        { "type": "starts",   "value": "https://rd-dp.rmp.rakuten.co.jp" },
+        { "type": "contains", "value": "rtyp=ext" }
+      ]
+    }
+  ],
+    "ios_applink_url": [
+    {
+      "conditions": [],
+      "value": [
+        { "type": "starts",   "value": "https://rd.rakuten.co.jp/app_ichiba" },
+        { "type": "starts",   "value": "https://rd-dp.rmp.rakuten.co.jp" },
+        { "type": "contains", "value": "rtyp=ext" }
+      ]
+    }
   ]
 }
