@@ -66,5 +66,29 @@
         { "type": "contains", "value": "rtyp=ext" }
       ]
     }
+  ],
+  "android_translation_urls": [
+    {
+      "conditions": [],
+      "value": {
+        "en":    "https://portal.reward.rakuten.co.jp/sdk-static/translations/en.json",
+        "ja-JP": "https://portal.reward.rakuten.co.jp/sdk-static/translations/ja-JP.json",
+        "zh-TW": "https://portal.reward.rakuten.co.jp/sdk-static/translations/zh-TW.json",
+        "zh-CN": "https://portal.reward.rakuten.co.jp/sdk-static/translations/zh-CN.json",
+        "ko-KR": "https://portal.reward.rakuten.co.jp/sdk-static/translations/ko-KR.json"
+      }
+    }
+  ],
+  "ios_translation_urls": [
+    {
+      "conditions": [],
+      "value": {
+        "en":    "https://portal.reward.rakuten.co.jp/sdk-static/translations/en.json",
+        "ja-JP": "https://portal.reward.rakuten.co.jp/sdk-static/translations/ja-JP.json",
+        "zh-TW": "https://portal.reward.rakuten.co.jp/sdk-static/translations/zh-TW.json",
+        "zh-CN": "https://portal.reward.rakuten.co.jp/sdk-static/translations/zh-CN.json",
+        "ko-KR": "https://portal.reward.rakuten.co.jp/sdk-static/translations/ko-KR.json"
+      }
+    }
   ]
 }
