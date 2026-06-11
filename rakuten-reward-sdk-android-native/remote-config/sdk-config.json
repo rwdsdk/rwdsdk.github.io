@@ -2,7 +2,7 @@
   "android_api_domain": [
     {
       "conditions": [
-        { "type": "sdk_version", "symbol": ">=", "value": "8.1.0" }
+        { "type": "sdk_version", "symbol": ">=", "value": "8.3.0" }
       ],
       "value": "https://api-catalog-jpe-gateway.rakuten.co.jp/"
     },
@@ -14,13 +14,13 @@
   "ios_api_domain": [
     {
       "conditions": [
-        { "type": "sdk_version", "symbol": ">=", "value": "9.1.0" }
+        { "type": "sdk_version", "symbol": ">=", "value": "9.3.0" }
       ],
-      "value": "https://api-catalog-jpe-gateway.rakuten.co.jp/"
+      "value": "api-catalog-jpe-gateway.rakuten.co.jp/"
     },
     {
       "conditions": [],
-      "value": "https://gateway-api.global.rakuten.com/"
+      "value": "gateway-api.global.rakuten.com/"
     }
   ],
   "android_under_maintenance": [
