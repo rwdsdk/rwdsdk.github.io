@@ -16,11 +16,11 @@
       "conditions": [
         { "type": "sdk_version", "symbol": ">=", "value": "9.3.0" }
       ],
-      "value": "api-catalog-jpe-gateway.rakuten.co.jp/"
+      "value": "api-catalog-jpe-gateway.rakuten.co.jp"
     },
     {
       "conditions": [],
-      "value": "gateway-api.global.rakuten.com/"
+      "value": "gateway-api.global.rakuten.com"
     }
   ],
   "android_under_maintenance": [
