@@ -1,0 +1,22 @@
+schema_version: "1.0"
+
+# ── OWNERSHIP ────────────────────────────────────────────────────────────────
+ownership:
+  org_id: "ORG035164"        # lowest-level org unit that owns this repo — look up at https://staff-info.rakuten-it.com/organizations
+
+# ── COMPONENT ────────────────────────────────────────────────────────────────
+component:
+  name: "rwdsdk.github.io"
+  production_impacting: false
+  kind: "docs"
+
+# ── BUILD ─────────────────────────────────────────────────────────────────────
+build:
+  language: "other"
+  cicd_providers: ["n/a"]
+  production_branch: "n/a"
+  release_convention: "n/a"    # semver tagging to be adopted for production-impacting repos (action 3, CIO request)
+  package_registries: ["n/a"]
+
+# psam_id not required — production_impacting: false
+psam_id: null
